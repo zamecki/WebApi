@@ -1,0 +1,21 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebApplication",
+    "\\WebApplication\\WebApplication",
+    "\\WebApplication\\WebApplication.Business",
+    "\\WebApplication\\WebApplication.Business\\Base",
+    "\\WebApplication\\WebApplication.Models",
+    "\\WebApplication\\WebApplication.Models\\Models",
+    "\\WebApplication\\WebApplication.Repository",
+    "\\WebApplication\\WebApplication.Repository\\Interfaces",
+    "\\WebApplication\\WebApplication.Repository\\Migrations",
+    "\\WebApplication\\WebApplication.Repository\\Repository",
+    "\\WebApplication\\WebApplication\\App_Start",
+    "\\WebApplication\\WebApplication\\Base",
+    "\\WebApplication\\WebApplication\\Controllers",
+    "\\WebApplication\\WebApplication\\Dtos"
+  ],
+  "SelectedNode": "\\WebApplication\\WebApplication.Repository\\Migrations\\Configuration.cs",
+  "PreviewInSolutionExplorer": false
+}

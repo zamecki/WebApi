@@ -1,0 +1,5 @@
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Models\bin\Debug\WebApplication.Models.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Models\bin\Debug\WebApplication.Models.pdb
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Models\obj\Debug\WebApplication.Models.csproj.CoreCompileInputs.cache
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Models\obj\Debug\WebApplication.Models.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Models\obj\Debug\WebApplication.Models.pdb
