@@ -1,0 +1,13 @@
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\bin\Debug\WebApplication.ApiClient.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\bin\Debug\WebApplication.ApiClient.pdb
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\obj\Debug\WebApplication.ApiClient.csproj.CoreCompileInputs.cache
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\obj\Debug\WebApplication.ApiClient.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\obj\Debug\WebApplication.ApiClient.pdb
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\obj\Debug\WebApplication.ApiClient.csprojAssemblyReference.cache
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\obj\Debug\WebApplication.ApiClient.csproj.CopyComplete
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\bin\Debug\WebApplication.ApiClient.dll.config
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.ApiClient\bin\Debug\System.Net.Http.Primitives.dll

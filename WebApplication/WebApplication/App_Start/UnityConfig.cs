@@ -2,6 +2,8 @@ using System;
 
 using Unity;
 using Unity.Lifetime;
+using WebApplication.ApiClient.Service;
+using WebApplication.ApiClient.ServiceInterface;
 using WebApplication.Business.Logic;
 using WebApplication.Business.LogicInterface;
 using WebApplication.Business.Uow;
@@ -56,6 +58,8 @@ namespace WebApplication
             container.RegisterType<IRepositoryProvider, RepositoryProvider>();
 
             container.RegisterType<IUnityOfWork, UnityOfWork>();
+
+            container.RegisterType<ICatService, CatService>();
 
             // TODO: Register your types here
             // container.RegisterType<IProductRepository, ProductRepository>();

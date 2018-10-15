@@ -159,3 +159,8 @@ C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Bus
 C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Business\bin\Debug\Castle.Core.dll
 C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Business\bin\Debug\Microsoft.EntityFrameworkCore.Proxies.xml
 C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Business\bin\Debug\Castle.Core.xml
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Business\bin\Debug\WebApplication.ApiClient.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Business\bin\Debug\WebApplication.ApiClient.pdb
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Business\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Business\bin\Debug\WebApplication.ApiClient.dll.config
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Business\bin\Debug\System.Net.Http.Formatting.dll

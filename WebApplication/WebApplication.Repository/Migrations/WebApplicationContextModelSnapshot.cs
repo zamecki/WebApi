@@ -29,6 +29,9 @@ namespace WebApplication.Repository.Migrations
                     b.Property<DateTime>("CreateTime")
                         .HasColumnName("createtime");
 
+                    b.Property<string>("ImageApiID")
+                        .HasColumnName("imageapiid");
+
                     b.Property<string>("Message")
                         .IsRequired()
                         .HasColumnName("message")

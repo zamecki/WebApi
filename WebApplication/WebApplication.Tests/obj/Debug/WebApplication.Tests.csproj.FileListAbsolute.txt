@@ -109,3 +109,5 @@ C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Tes
 C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Tests\bin\Debug\Microsoft.EntityFrameworkCore.Proxies.xml
 C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Tests\bin\Debug\Castle.Core.xml
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Tests\bin\Debug\WebApplication.ApiClient.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication.Tests\bin\Debug\WebApplication.ApiClient.pdb

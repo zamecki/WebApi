@@ -33,7 +33,10 @@ namespace WebApplication.Repository
         {
             return DbSet.Find(id);
         }
-
+        public virtual async Task<T> GetByIdAsync(int id)
+        {
+            return await DbSet.FindAsync(id);
+        }
         public virtual void Add(T entity)
         {
             EntityEntry dbEntityEntry = DbContext.Entry(entity);
@@ -46,7 +49,18 @@ namespace WebApplication.Repository
                 DbSet.Add(entity);
             }
         }
-
+        public virtual async Task AddAsync(T entity)
+        {
+            EntityEntry dbEntityEntry = DbContext.Entry(entity);
+            if (dbEntityEntry.State != EntityState.Detached)
+            {
+                dbEntityEntry.State = EntityState.Added;
+            }
+            else
+            {
+                DbSet.AddAsync(entity);
+            }
+        }
         public virtual void Update(T entity)
         {
             EntityEntry dbEntityEntry = DbContext.Entry(entity);

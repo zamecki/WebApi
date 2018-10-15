@@ -10,10 +10,10 @@ namespace WebApplication.Business.LogicInterface
 {
     public interface IPostBusiness : ICommitable
     {
-        int Create(DtoCreatePost dtoCreatePost);
+        Task<int> CreateAsync(DtoCreatePost dtoCreatePost);
 
-        DtoGetPost Find(int postID);
+        Task<DtoGetPost> FindAsync(int postID);
 
-        List<DtoGetPost> GetAll(int userID);
+        Task<List<DtoGetPost>> GetAllAsync(int userID);
     }
 }

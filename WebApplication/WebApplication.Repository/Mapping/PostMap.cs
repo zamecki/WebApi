@@ -25,7 +25,10 @@ namespace WebApplication.Repository.Mapping
 
             builder.Property(t => t.Message).HasColumnName("message").HasMaxLength(256).IsRequired();
 
+            builder.Property(t => t.ImageApiID).HasColumnName("imageapiid");
+
             builder.HasOne(t => t.User).WithMany(t => t.Posts).HasForeignKey(t => t.UserID);
+            
         }
     }
 }

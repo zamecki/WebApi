@@ -135,6 +135,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WebApplication.ApiClient\WebApplication.ApiClient.csproj">
+      <Project>{878B0A9C-D662-47A8-8CBE-6F81E4B03DFA}</Project>
+      <Name>WebApplication.ApiClient</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WebApplication.Models\WebApplication.Models.csproj">
       <Project>{354D5FAE-5E0A-4800-A2FC-04761607D202}</Project>
       <Name>WebApplication.Models</Name>

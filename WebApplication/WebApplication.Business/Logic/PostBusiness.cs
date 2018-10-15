@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebApplication.ApiClient.ServiceInterface;
 using WebApplication.Business.Base;
 using WebApplication.Business.Dtos.Posts;
 using WebApplication.Business.LogicInterface;
@@ -13,30 +14,35 @@ namespace WebApplication.Business.Logic
 {
     public class PostBusiness : BusinessBase, IPostBusiness
     {
-        public PostBusiness(IUnityOfWork uow) : base(uow)
+        private ICatService CatService;
+
+        public PostBusiness(IUnityOfWork uow, ICatService catService) : base(uow)
         {
+            CatService = catService;
         }
 
-        public int Create(DtoCreatePost dtoCreatePost)
+        public async Task<int> CreateAsync(DtoCreatePost dtoCreatePost)
         {
             User user = Uow.User.GetById(dtoCreatePost.UserID);
-            Post post = dtoCreatePost.ToPost(user);
-            Uow.Post.Add(post);
+            Post post = await dtoCreatePost.ToPostAsync(user, CatService);
+            await Uow.Post.AddAsync(post);
             return post.UserID;
         }
 
-        public DtoGetPost Find(int postID)
+        public Task<DtoGetPost> FindAsync(int postID)
         {
             Post post = Uow.Post.GetById(postID);
             if (post == null)
                 throw new BusinessException("Post not found");
-            return (DtoGetPost)post;
+            return post.ToDtoGetPostAsync(CatService);
         }
 
-        public List<DtoGetPost> GetAll(int userID)
+        public async Task<List<DtoGetPost>> GetAllAsync(int userID)
         {
             List<Post> posts = Uow.Post.GetAll().Where(x => x.UserID == userID).ToList();
-            return posts.Select(x => (DtoGetPost)x).ToList();
+            var dtoTasks = posts.Select(async post => await post.ToDtoGetPostAsync(CatService)).ToList();
+            var dtos = await Task.WhenAll(dtoTasks);
+            return dtos.ToList();
         }
     }
 }

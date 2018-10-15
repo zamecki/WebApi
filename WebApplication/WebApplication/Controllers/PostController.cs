@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
 using WebApplication.Base;
@@ -23,33 +24,33 @@ namespace WebApplication.Controllers
         [HttpGet]
         [Route("{userID:int}")]
         [AllowAnonymous]
-        public DtoResult<List<DtoGetPost>> GetAll(int userID)
+        public async Task<DtoResult<List<DtoGetPost>>> GetAllAsync(int userID)
         {
 
-            return Resolve(() =>
+            return await ResolveAsync(async () =>
             {
-                return new DtoResult<List<DtoGetPost>>() { Result = PostBusiness.GetAll(userID) };
+                return new DtoResult<List<DtoGetPost>>() { Result = await PostBusiness.GetAllAsync(userID) };
             });
         }
 
         [HttpGet]
         [AllowAnonymous]
-        public DtoResult<DtoGetPost> FindPost(int postID)
+        public async Task<DtoResult<DtoGetPost>> FindPostAsync(int postID)
         {
 
-            return Resolve(() =>
+            return await ResolveAsync(async () =>
             {
-                return new DtoResult<DtoGetPost>() { Result = PostBusiness.Find(postID) };
+                return new DtoResult<DtoGetPost>() { Result = await PostBusiness.FindAsync(postID) };
             });
         }
 
         [HttpPost]
         [AllowAnonymous]
-        public DtoResult<int> CreatePost(DtoCreatePost post)
+        public async Task<DtoResult<int>> CreatePostAsync(DtoCreatePost post)
         {
-            return Resolve(() =>
+            return await ResolveAsync(async () =>
             {
-                int postID = PostBusiness.Create(post);
+                int postID = await PostBusiness.CreateAsync(post);
                 PostBusiness.Commit();
                 return new DtoResult<int>() { Result = postID };
             });

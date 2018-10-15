@@ -274,3 +274,6 @@ C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication\bin
 C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication\bin\Microsoft.IdentityModel.Tokens.xml
 C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication\bin\Microsoft.Owin.Security.Jwt.xml
 C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication\bin\WebApplication.ApiClient.dll
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication\bin\WebApplication.ApiClient.pdb
+C:\Users\lucas.zamecki\Documents\MyDocs\WebApi\WebApplication\WebApplication\bin\WebApplication.ApiClient.dll.config

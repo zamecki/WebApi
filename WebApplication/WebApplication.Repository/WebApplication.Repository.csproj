@@ -145,6 +145,10 @@
     <Compile Include="Migrations\20181003163114_Add Post Table.designer.cs">
       <DependentUpon>20181003163114_Add Post Table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20181015103934_Added image column to post model.cs" />
+    <Compile Include="Migrations\20181015103934_Added image column to post model.designer.cs">
+      <DependentUpon>20181015103934_Added image column to post model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\WebApplicationContextModelSnapshot.cs" />
     <Compile Include="Repository\EFRepository.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
